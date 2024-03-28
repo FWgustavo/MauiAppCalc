@@ -90,6 +90,26 @@
         {
 
         }
+
+        private void ponto_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mais_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void num3_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void igual_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
