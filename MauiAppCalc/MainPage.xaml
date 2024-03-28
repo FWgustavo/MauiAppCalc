@@ -65,6 +65,8 @@
                     Text="1" Clicked="num1_Clicked" />
             <Button Grid.Row="4" Grid.Column="1" Style="{StaticResource BotaoClaro}" x:Name="num2"
                     Text="2" Clicked="num2_Clicked" />
+			<Button Grid.Row="4" Grid.Column="2" Style="{StaticResource BotaoClaro}" x:Name="num3"
+                    Text="3" Clicked="" />
         </Grid>
     </ContentPage.Content>
 
