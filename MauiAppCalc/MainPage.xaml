@@ -32,7 +32,7 @@
               RowSpacing="10" ColumnSpacing="10" Margin="10" ColumnDefinitions="*, *, *, *">
             <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4"
                    x:Name="visor" Text="0" HorizontalTextAlignment="End"
-                   VerticalTextAlignment="End" TextColor="White"
+                   VerticalTextAlignment="End" TextColor="Black"
                    FontSize="60" />
             <Button Grid.Row="1" Grid.Column="0" Style="{StaticResource BotaoEscuro}" x:Name="zerar" 
                     Text="C" Clicked="zerar_Clicked" />
@@ -71,7 +71,7 @@
                     Text="+" Clicked="mais_Clicked" />
 
             <Button Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Style="{StaticResource BotaoClaro}" x:Name="num0"
-                    Text="0" Clicked="" />
+                    Text="0" Clicked="num0_Clicked" />
             <Button Grid.Row="5" Grid.Column="2"  Style="{StaticResource BotaoClaro}" x:Name="ponto"
                     Text="." Clicked="ponto_Clicked" />
             <Button Grid.Row="5" Grid.Column="3" Style="{StaticResource BotaoEscuro}" x:Name="igual"
